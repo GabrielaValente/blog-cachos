@@ -3,4 +3,45 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat";
+
+}
+
+header {
+    display: flex;
+    border: 2px solid purple;
+}
+
+ul {
+    display: flex;
+    border: 2px solid green;
+    width: 100vw;
+
+}
+
+.menu {
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* So mexe no a se precisar de algo especifico,
+a li já é o */
+a {
+    text-decoration: none;
+
+}
+
+li {
+    display: flex;
+    list-style: none;
+    border: 2px solid blue;
+    width: 10vw;
+
+
+}
+
+.cachos-logo img {
+    height: 4vw;
+    width: 8vw;
 }
